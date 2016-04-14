@@ -1,0 +1,132 @@
+
+/* Carousel Styles */
+.carousel-indicators .active {
+    background-color: #2980b9;
+}
+
+.carousel-inner {
+
+	img {
+		@extend .dim-75;
+	    width: 100%;
+	    max-height: 460px;
+    }  
+}
+
+.carousel-control {
+    width: 0;
+}
+
+.carousel-control.left,
+.carousel-control.right {
+	opacity: .5;
+	filter: alpha(opacity=50);
+	background-image: none;
+	background-repeat: no-repeat;
+	text-shadow: none;
+}
+
+.carousel-control.left {
+	span {
+		padding: 40px;
+	}
+}
+
+.carousel-control.right {
+	span {
+		padding: 40px;
+	}
+}
+.carousel-control {
+	.glyphicon-chevron-left, .glyphicon-chevron-right, .icon-prev, .icon-next {
+		position: absolute;
+		top: 40%;
+		z-index: 5;
+		display: inline-block;
+	}
+
+	.glyphicon-chevron-left, .icon-prev {
+		left: 0;
+	}
+
+	.glyphicon-chevron-right, .icon-next {
+		right: 0;
+	}
+}
+
+.carousel-control.left span,
+.carousel-control.right span {
+	background-color: #212121;
+}
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+	opacity: .7;
+	filter: alpha(opacity=70);
+}
+
+/* Carousel Header Styles */
+.header-text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    color: #fff;
+
+    a {
+    	text-decoration: none;
+    	color: #fff;
+    	font-size: 26px;
+    	font-weight: bold;
+    }
+    a:hover {
+    	color: #f7f7f7;
+    }
+    p {
+    	font-size: 18px;
+    }
+
+    .participants {
+	    position: absolute;
+	    width: 100%;
+	    bottom: 0;    
+    }
+}
+
+.category-thumbnails {
+	.thumbnail {
+		-webkit-border-radius: 0; 
+		-moz-border-radius: 0; 
+		border-radius: 0;
+		border: 0;
+		background-size: cover;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;		
+	    background-position-x: center;
+		background-color: rgba(80, 80, 80, 0.50);
+    	background-blend-mode: darken;
+
+		p {
+		    position: absolute;
+		    top: 70%;
+		    right: 0;
+		    left: 0;
+		    margin: 0 auto;
+		    text-align: center;
+		    font-size: 14px;
+		    color: #fff;
+		}
+
+		img:hover + p {
+			text-decoration: underline;
+		}
+
+	}
+
+	.thumbnail:hover {
+			text-decoration: underline;
+	}  
+}

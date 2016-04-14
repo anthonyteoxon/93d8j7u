@@ -1,0 +1,95 @@
+/* Carousel Styles */
+.carousel-indicators .active {
+  background-color: #2980b9; }
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 460px; }
+
+.carousel-control {
+  width: 0; }
+
+.carousel-control.left,
+.carousel-control.right {
+  opacity: .5;
+  filter: alpha(opacity=50);
+  background-image: none;
+  background-repeat: no-repeat;
+  text-shadow: none; }
+
+.carousel-control.left span {
+  padding: 40px; }
+
+.carousel-control.right span {
+  padding: 40px; }
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+  position: absolute;
+  top: 40%;
+  z-index: 5;
+  display: inline-block; }
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
+  left: 0; }
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
+  right: 0; }
+
+.carousel-control.left span,
+.carousel-control.right span {
+  background-color: #212121; }
+
+.carousel-control.left span:hover,
+.carousel-control.right span:hover {
+  opacity: .7;
+  filter: alpha(opacity=70); }
+
+/* Carousel Header Styles */
+.header-text {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  color: #fff; }
+  .header-text a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 26px;
+    font-weight: bold; }
+  .header-text a:hover {
+    color: #f7f7f7; }
+  .header-text p {
+    font-size: 18px; }
+  .header-text .participants {
+    position: absolute;
+    width: 100%;
+    bottom: 0; }
+
+.category-thumbnails .thumbnail {
+  border-radius: 0;
+  border: 0;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-position-x: center;
+  background-color: rgba(80, 80, 80, 0.5);
+  background-blend-mode: darken; }
+  .category-thumbnails .thumbnail p {
+    position: absolute;
+    top: 70%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+    color: #fff; }
+  .category-thumbnails .thumbnail img:hover + p {
+    text-decoration: underline; }
+
+.category-thumbnails .thumbnail:hover {
+  text-decoration: underline; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,28 @@
+#content #package-list .thumbnail {
+  padding: 0;
+  background: #212121;
+  border-radius: 0;
+  border: 0; }
+  #content #package-list .thumbnail .caption {
+    color: #fff; }
+    #content #package-list .thumbnail .caption h4 {
+      text-align: center; }
+    #content #package-list .thumbnail .caption p {
+      text-align: center;
+      font-size: 14px; }
+    #content #package-list .thumbnail .caption .participants {
+      color: #9e9e9e; }
+
+#content #package-list .thumbnail img {
+  -webkit-filter: brightness(90%);
+  filter: brightness(90%); }
+
+#content #package-list .thumbnail img:hover {
+  -webkit-filter: brightness(100%);
+  filter: brightness(100%); }
+
+#content #package-load-more {
+  width: 100%;
+  margin-bottom: 50px; }
+
+/*# sourceMappingURL=package-list.css.map */
